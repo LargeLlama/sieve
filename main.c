@@ -3,8 +3,11 @@
 #include "sieve.h"
 
 int main(int argc, char * argv[]){
+	sieve(10);
+/*
   int iterations = 1;
   int target = 1000000;
+
   if(argc > 1){
     target = atoi(argv[1]);
   }
@@ -14,8 +17,8 @@ int main(int argc, char * argv[]){
 
 
   int ans = 0;
-  while(iterations>0){
-    ans=sieve(target);
+  while(iterations > 0){
+    ans = sieve(target);
     iterations--;
     printf("The n=%d prime is %d\n", target, ans );
 
@@ -24,6 +27,7 @@ int main(int argc, char * argv[]){
     target++;
 
   }
+  */
   return 0;
 
 }
