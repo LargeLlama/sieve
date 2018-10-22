@@ -3,8 +3,7 @@
 #include "sieve.h"
 
 int main(int argc, char * argv[]){
-	sieve(10);
-/*
+	printf("%d\n", sieve(10));
   int iterations = 1;
   int target = 1000000;
 
@@ -27,7 +26,7 @@ int main(int argc, char * argv[]){
     target++;
 
   }
-  */
+  
   return 0;
 
 }
